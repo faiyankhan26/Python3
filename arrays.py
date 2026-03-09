@@ -137,3 +137,28 @@
 # print(obj11.count_number([1,2,3,2,5,6,2,8], 2));
 
 # Find the maximum difference between two elements 
+# class Difference:
+#     def find_difference(self,arr):
+#         smallest = arr[0]
+#         largest = arr[0]
+        
+#         for num in arr:
+#             if num < smallest:
+#                 smallest = num
+#             elif num > largest:
+#                 largest = num
+#         return largest - smallest
+
+# obj12 = Difference()
+# print(obj12.find_difference([1,2,3,4,5,6]))
+
+# Check if the array is sorted or not
+class Sorted:
+    def sorted_array(self,arr):
+        for i in range(len(arr)-1):
+            if arr[i] > arr[i+1]:
+                return False
+        return True
+    
+obj13 = Sorted()
+print(obj13.sorted_array([1,5,4,2,3]))
