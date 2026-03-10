@@ -153,12 +153,41 @@
 # print(obj12.find_difference([1,2,3,4,5,6]))
 
 # Check if the array is sorted or not
-class Sorted:
-    def sorted_array(self,arr):
-        for i in range(len(arr)-1):
-            if arr[i] > arr[i+1]:
-                return False
-        return True
+# class Sorted:
+#     def sorted_array(self,arr):
+#         for i in range(len(arr)-1):
+#             if arr[i] > arr[i+1]:
+#                 return False
+#         return True
     
-obj13 = Sorted()
-print(obj13.sorted_array([1,5,4,2,3]))
+# obj13 = Sorted()
+# print(obj13.sorted_array([1,5,4,2,3]))
+
+# # Remove duplicate elements from array
+# class Duplicate :
+#     def remove_dublicate(self, arr):
+#         new_arr = []
+#         for num in arr:
+#             if num not in new_arr:
+#                 new_arr.append(num) 
+#         return new_arr
+    
+# obj14 = Duplicate()
+# print(obj14.remove_dublicate([9,9,6,0,9,5,3,9,9,2]))
+
+# Find the largest and second largest in one loop
+# class Loop:
+#     def lar_sec_num(self, arr):
+#         largest = arr[0]
+#         sec_largest = arr[0]
+#         for num in arr:
+#             if num > largest:
+#                 sec_largest = largest
+#                 largest = num
+#             elif num > sec_largest and num != largest:
+#                 sec_largest = num
+                
+#         return largest, sec_largest
+    
+# obj15 = Loop()
+# print(obj15.lar_sec_num([1,2,3,4,5,6]))   
