@@ -43,3 +43,12 @@
 # obj4 = Square()
 # print(obj4.num_square([1,2,3,4,5]))
 
+# Print elements at even indexes
+# class Index:
+#     def even_index(self, arr):
+#         for i in range(len(arr)):
+#             if i % 2 == 0:
+#                 print(arr[i])
+            
+# obj5 = Index()
+# obj5.even_index([1,2,3,4,5])
